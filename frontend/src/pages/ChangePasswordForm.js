@@ -9,7 +9,7 @@ const ChangePasswordForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setMessage(''); // Clear previous messages
+    setMessage(''); 
 
     if (newPassword !== confirmPassword) {
       setMessage('Passwords do not match.');

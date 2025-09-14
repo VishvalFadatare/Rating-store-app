@@ -180,7 +180,6 @@ const AdminDashboard = () => {
                             <th style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'left' }}>Name</th>
                             <th style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'left' }}>Email</th>
                             <th style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'left' }}>Address</th>
-                            {/* <th style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'left' }}>Owner ID</th> */}
                             <th style={{ padding: '10px', border: '1px solid #ddd', textAlign: 'left' }}>Avg. Rating</th>
                         </tr>
                     </thead>
@@ -191,7 +190,6 @@ const AdminDashboard = () => {
                                 <td style={{ padding: '10px', border: '1px solid #ddd' }}>{store.name}</td>
                                 <td style={{ padding: '10px', border: '1px solid #ddd' }}>{store.email}</td>
                                 <td style={{ padding: '10px', border: '1px solid #ddd' }}>{store.address}</td>
-                                {/* <td style={{ padding: '10px', border: '1px solid #ddd' }}>{store.owner_id}</td> */}
                                 <td style={{ padding: '12px', border: '1px solid #ddd' }}>{parseFloat(store.average_rating).toFixed(1)} / 5</td>
                             </tr>
                         ))}
