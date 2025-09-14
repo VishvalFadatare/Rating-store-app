@@ -23,6 +23,18 @@ const SignupPage = () => {
     };
 
     return (
+         <div style={{ height: "100vh", display: "flex", flexDirection: "column" }}>
+           
+            <div style={{
+                backgroundColor: "#007bff",
+                color: "black",
+                padding: "20px",
+                textAlign: "left",
+                fontSize: "22px",
+                fontWeight: "bold"
+            }}>
+                Store Rating Application
+            </div>
         <div style={{
             display: 'flex',
             justifyContent: 'center',
@@ -119,6 +131,7 @@ const SignupPage = () => {
                 <p style={{ marginTop: '20px' }}>
                     Already have an account? <Link to="/login">Login</Link>
                 </p>
+            </div>
             </div>
         </div>
     );
